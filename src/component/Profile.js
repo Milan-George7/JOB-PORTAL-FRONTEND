@@ -276,7 +276,7 @@ const Profile = (props) => {
                   fullWidth
                 />
               </Grid>
-              <Grid item>
+              {/* <Grid item>
                 <FileUploadInput
                   className={classes.inputBox}
                   label="Resume (.pdf)"
@@ -285,8 +285,8 @@ const Profile = (props) => {
                   handleInput={handleInput}
                   identifier={"resume"}
                 />
-              </Grid>
-              <Grid item>
+              </Grid> */}
+              {/* <Grid item>
                 <FileUploadInput
                   className={classes.inputBox}
                   label="Profile Photo (.jpg/.png)"
@@ -295,16 +295,16 @@ const Profile = (props) => {
                   handleInput={handleInput}
                   identifier={"profile"}
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
-            <Button
+            {/* <Button
               variant="contained"
               color="primary"
               style={{ padding: "10px 50px", marginTop: "30px" }}
               onClick={() => handleUpdate()}
             >
               Update Details
-            </Button>
+            </Button> */}
           </Paper>
         </Grid>
       </Grid>

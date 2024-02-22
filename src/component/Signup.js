@@ -408,7 +408,7 @@ const Login = (props) => {
                 }
               />
             </Grid>
-            <Grid item>
+            {/* <Grid item>
               <FileUploadInput
                 className={classes.inputBox}
                 label="Resume (.pdf)"
@@ -424,8 +424,8 @@ const Login = (props) => {
                 handleInput={handleInput}
                 identifier={"resume"}
               />
-            </Grid>
-            <Grid item>
+            </Grid> */}
+            {/* <Grid item>
               <FileUploadInput
                 className={classes.inputBox}
                 label="Profile Photo (.jpg/.png)"
@@ -441,7 +441,7 @@ const Login = (props) => {
                 handleInput={handleInput}
                 identifier={"profile"}
               />
-            </Grid>
+            </Grid> */}
           </>
         ) : (
           <>
